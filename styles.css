@@ -1,3 +1,17 @@
+/* Selector */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: hotpink;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: 112, 5%;
+  line-height: 1.4;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
 }
