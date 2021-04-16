@@ -4,79 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>persönliche Seite</title>
+    <title>Pascal Webers Website</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Meine erste website</h1>
+    <header class="page1">
+      <h1>Über mich</h1>
       <nav>
         <a href="#contact">Kontakt</a>
+        <a href="#links">Online-Links</a>
         <a href="#biographie">Biographie</a>
+        <a href="#cv">Lebenslauf</a>
       </nav>
     </header>
 
-    <div class="bild1">
-      <img src="images/baum.jpg" alt="" />
+    <div>
+      <img class="bild1" src="images/Bild.jpg" alt="" />
     </div>
 
-    <section>
-      <h2>Meine Interessen</h2>
+    <main class="page-main">
+      <section>
+        <h2>Meine Hobbies</h2>
+        <ul>
+          <li>Fitness</li>
+          <li>Wandern</li>
+          <li>Zocken</li>
+          <li>Kochen</li>
+        </ul>
+      </section>
 
-      <p>Ich spiele gerne Ball</p>
-    </section>
+      <section>
+        <h2>Meine Kompetenzen</h2>
+        <ul>
+          <li>Nemetsckek Allplan</li>
+          <li>Html</li>
+          <li>CSS</li>
+          <li>Java Script</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Meine Skills</h2>
+      <section>
+        <h2 id="contact">Kontakt:</h2>
+        <p>Pascal Weber</p>
+        <a href="tel:+491632554022">Tel: 0163 255 40 22</a><br />
+        <a href="mailto:weber-pascal@web.de">weber-pascal@web.de</a>
+      </section>
 
-      <p>Ich kann Bälle weit werfen</p>
-    </section>
+      <section>
+        <h2>Finde mich Online</h2>
 
-    <section>
-      <h2 id="contact">Kontakt:</h2>
-      <p>Vorname: Hans</p>
-      <p>Nachname: Im Glück</p>
-      <p>Handy: 0166/223445</p>
-      <p>Mail: HansImGlück@web.de</p>
-    </section>
+        <a href="https://github.com/pascalweber85" target="_blank">
+          <img class="image-fluid" src="images/github.png" alt="" />
+          Besuch mich auf github.com!
+        </a>
+      </section>
 
-    <section>
-      <h2>Githubprofil</h2>
+      <section>
+        <h2 id="biographie">Biographie</h2>
+        <p>
+          Ich bin 1985 in Ansbach geboren. Dort habe ich 2006 mein Abi gemacht.
+          Nach dem Abitur habe ich in München Bauingenieurwesen studiert und
+          2012 abgeschlossen. Bis heute arbeite ich als Bauingenieur und konnte
+          in mehreren Unternehmen Erfahrung im Hoch-, Tiefbau und Ingenieurbau
+          sammeln. Seit April nehme ich am 12-wöchigen Bootcamp zum Webdeveloper
+          bei neuefische aus Hamburg teil.
+        </p>
+      </section>
 
-      <a href="https://github.com/pascalweber85/personal-website"
-        >Github Profil</a
-      >
-    </section>
+      <section>
+        <h2 id="cv">Lebenslauf:</h2>
 
-    <section>
-      <h2 id="biographie">Biographie</h2>
-      <p>
-        Hallo, ich heiße Hans im Glück, komme aus Entenhausen und wohen in einem
-        großen Goldbunker. Ich schwimme gerne im Geld. Außerdem habe ich 3
-        Neffen, die ich gerne ärgere.
-      </p>
-    </section>
-
-    <section>
-      <h3>Lebenslauf:</h3>
-
-      <ul>
-        <li>geboren</li>
-        <li>gewohnt</li>
-        <li>gestorben</li>
-        <li>vergraben</li>
-      </ul>
-    </section>
-
-    <footer>
-      <div>
-        <span>
-          Hans im Glück<br />
-          Glücksweg 3<br />
-          0666 Glückshausen<br />
-        </span>
-      </div>
-    </footer>
+        <ul>
+          <li>geboren</li>
+          <li>gewohnt</li>
+          <li>gestorben</li>
+          <li>vergraben</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
