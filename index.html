@@ -10,31 +10,33 @@
 
   <body>
     <header class="page1">
-      <h1>Über mich</h1>
+      <h1 id="start">Über mich</h1>
       <nav>
         <a href="#contact" class="button">Kontakt</a>
         <a href="#links" class="button">Online-Links</a>
-        <a href="#biographie" class="button">Biographie</a>
+        <a href="#biographie" class="button">Biografie</a>
         <a href="#cv" class="button">Lebenslauf</a>
       </nav>
     </header>
 
-    <div>
-      <img class="bild1" src="images/Bild.jpg" alt="" />
-    </div>
-
     <main class="page-main">
+      <div>
+        <img class="bild1" src="images/Bild.jpg" alt="" />
+      </div>
+
       <section>
-        <h2>Meine Hobbies</h2>
-        <ul>
-          <li>Fitness</li>
-          <li>Wandern</li>
-          <li>Zocken</li>
-          <li>Kochen</li>
-        </ul>
+        <div class="s1">
+          <h2>Meine Hobbies</h2>
+          <ul>
+            <li>Fitness</li>
+            <li>Wandern</li>
+            <li>Zocken</li>
+            <li>Kochen</li>
+          </ul>
+        </div>
       </section>
 
-      <section>
+      <section class="s2">
         <h2>Meine Kompetenzen</h2>
         <ul>
           <li>Nemetsckek Allplan</li>
@@ -43,51 +45,54 @@
           <li>Java Script</li>
         </ul>
       </section>
-
-      <section>
-        <h2 id="contact">Kontakt:</h2>
-        <p>Pascal Weber</p>
-        <a href="tel:+491632554022">Tel: 0163 255 40 22</a><br />
-        <a href="mailto:weber-pascal@web.de">weber-pascal@web.de</a>
-      </section>
-
-      <section>
-        <h2 id="links">Finde mich Online</h2>
-
-        <a href="https://github.com/pascalweber85" target="_blank">
-          <img class="bild2" src="images/github.png" alt="" />
-          Besuch mich auf github.com!
-        </a>
-      </section>
-
-      <section>
-        <h2 id="biographie">Biographie</h2>
-        <p>
-          Ich bin 1985 in Ansbach geboren. Dort habe ich 2006 mein Abi gemacht.
-          Nach dem Abitur habe ich in München Bauingenieurwesen studiert und
-          2012 abgeschlossen. Bis heute arbeite ich als Bauingenieur und konnte
-          in mehreren Unternehmen Erfahrung im Hoch-, Tiefbau und Ingenieurbau
-          sammeln. Seit April nehme ich am 12-wöchigen Bootcamp zum Webdeveloper
-          bei neuefische aus Hamburg teil.
-        </p>
-      </section>
-
-      <section>
-        <h2 id="cv">Lebenslauf:</h2>
-
-        <dl>
-          <dt>2020</dt>
-          <dd>Bootcamp bei neuefische</dd>
-          <dt>2012-2020</dt>
-          <dd>Als Bauingenieur tätig</dd>
-          <dt>2006-2012</dt>
-          <dd>Studium in München</dd>
-          <dt>2006</dt>
-          <dd>Abitur in Ansbach</dd>
-        </dl>
-      </section>
-
-      <p>zurück zum Anfang</p>
     </main>
+
+    <section class="s3">
+      <h2 id="contact">Kontakt:</h2>
+      Pascal Weber <br />
+      <a href="tel:+491632554022">Tel: 0163 255 40 22</a><br />
+      <a href="mailto:weber-pascal@web.de">weber-pascal@web.de</a>
+    </section>
+
+    <section>
+      <h2 id="links">Finde mich Online</h2>
+      <div>
+        <img class="bild2" src="images/github.png" alt="" />
+      </div>
+      <a href="https://github.com/pascalweber85" target="_blank">
+        Besuch mich auf github.com!
+      </a>
+    </section>
+
+    <section>
+      <h2 id="biographie">Biographie</h2>
+      <p>
+        Ich bin 1985 in Ansbach geboren. Dort habe ich 2006 mein Abi gemacht.
+        Nach dem Abitur habe ich in München Bauingenieurwesen studiert und 2012
+        abgeschlossen. Bis heute arbeite ich als Bauingenieur und konnte in
+        mehreren Unternehmen Erfahrung im Hoch-, Tiefbau und Ingenieurbau
+        sammeln. Seit April nehme ich am 12-wöchigen Bootcamp zum Webdeveloper
+        bei neuefische aus Hamburg teil.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="cv">Lebenslauf:</h2>
+
+      <dl>
+        <dt>2021</dt>
+        <dd>Bootcamp bei neuefische</dd>
+        <dt>2012-2021</dt>
+        <dd>Als Bauingenieur tätig</dd>
+        <dt>2006-2012</dt>
+        <dd>Studium in München</dd>
+        <dt>2006</dt>
+        <dd>Abitur in Ansbach</dd>
+      </dl>
+    </section>
+
+    <footer>
+      <a href="#start">zurück zum Anfang!</a>
+    </footer>
   </body>
 </html>
