@@ -36,17 +36,13 @@ h1 {
   background: rgb(226, 176, 39);
 }
 
-.page-main {
-  display: grid;
-  grid-gap: 40px;
-  place-items: center;
-}
-
 .bild1 {
   width: 100%;
   height: auto;
 }
 .bild2 {
+  margin-left: 20%;
+  margin-right: 20%;
   width: 50%;
   height: auto;
 }
@@ -61,6 +57,52 @@ h1 {
 }
 
 .s1 {
+  display: grid;
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+  justify-content: center;
   border: solid 1px black;
-  text-align: left;
+}
+
+.s2 {
+  display: grid;
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.s3 {
+  display: grid;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.s4 {
+  display: grid;
+  text-align: center;
+  border: solid 1px black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.s5 {
+  display: grid;
+  margin-left: 5px;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+.s6 {
+  display: grid;
+  margin-left: 5px;
+  justify-content: center;
+  border: solid 1px black;
+}
+
+footer {
+  display: grid;
+  text-align: center;
 }
