@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: rgb(206, 197, 202);
+  background-color: white;
   font-family: sans-serif, Arial, Helvetica;
   font-size: 112, 5%;
   line-height: 1.4;
@@ -23,8 +23,8 @@ textarea {
 }
 
 a {
-  text-decoration: none;
-  border-bottom: 2px dotted;
+  ntext-decoration: none;
+  nborder-bottom: 2px dotted;
 }
 
 h1 {
@@ -51,18 +51,18 @@ h1 {
   border-radius: 5px;
   box-shadow: 1px 2px 3px #808080;
   border-bottom: none;
-  margin: 5px;
+  margin: 2px;
   padding: 5px;
   line-height: 2;
+  text-decoration: none;
 }
 
 .s1 {
   display: grid;
   float: left;
   width: 48%;
-  margin-left: 2%;
+  margin-left: 1%;
   justify-content: center;
-  border: solid 1px black;
 }
 
 .s2 {
@@ -70,39 +70,51 @@ h1 {
   float: left;
   width: 48%;
   margin-left: 2%;
+  margin-right: 1%;
   justify-content: center;
-  border: solid 1px black;
 }
 
 .s3 {
   display: grid;
   justify-content: center;
-  border: solid 1px black;
+  width: 100%;
+  background-color: rgb(235, 228, 231);
+  padding-bottom: 10px;
 }
 
 .s4 {
   display: grid;
   text-align: center;
-  border: solid 1px black;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: rgb(230, 228, 166);
+  padding-bottom: 10px;
 }
 
 .s5 {
   display: grid;
-  margin-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
   justify-content: center;
-  border: solid 1px black;
 }
 
 .s6 {
   display: grid;
-  margin-left: 5px;
+  margin-left: 0;
+  margin-right: 0;
   justify-content: center;
-  border: solid 1px black;
+
+  background-color: rgb(230, 228, 166);
 }
 
 footer {
   display: grid;
   text-align: center;
+  color: white;
+  background-color: rgb(5, 5, 5);
+  padding: 10px 0;
+}
+
+.a1 {
+  color: white;
 }
