@@ -80,27 +80,6 @@ h1 {
   text-align: center;
 }
 
-/* .s1 {
-  display: grid;
-  float: left;
-  width: 48%;
-  margin-left: 1%;
-  justify-content: center;
-  max-width: 400px;
-  border: 1px solid black;
-}
-
-.s2 {
-  display: grid;
-  float: left;
-  width: 48%;
-  margin-left: 2%;
-  margin-right: 1%;
-  justify-content: center;
-  max-width: 400px;
-  border: 1px solid black;
-} */
-
 .s3 {
   display: grid;
   justify-content: space-evenly;
@@ -151,4 +130,5 @@ footer {
 
 li {
   list-style: none;
+  margin-left: -20px;
 }
