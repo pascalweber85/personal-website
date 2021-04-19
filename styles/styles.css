@@ -1,11 +1,6 @@
-@import './_base.css'
-}
-:root {
+@import './_base.css': root {
   --primary: blue;
   --black: darkgrey;
-}
-
-r: var(--primary);*/
 }
 
 input,
