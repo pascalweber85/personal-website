@@ -1,21 +1,8 @@
-/* Selector */
-* {
-  box-sizing: border-box;
-}
+@import './_base.css';
+
 :root {
   --primary: blue;
   --black: darkgrey;
-}
-
-body {
-  background-color: rgba(236, 228, 228, 0.945);
-  font-family: sans-serif, Arial, Helvetica;
-  font-size: 112, 5%;
-  line-height: 1.4;
-  margin-left: auto;
-  margin-right: auto;
-
-  /*color: var(--primary);*/
 }
 
 input,
